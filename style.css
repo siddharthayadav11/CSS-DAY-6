@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+a{
+    color: black;
+}
+header{
+    font-size: 1.8rem;
+}
+nav {
+    background-color: white;
+    color: black;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+}
+.container> *{
+    position: absolute;
+}
+.container> h1{
+    align-content: center;
+    bottom: 200px;
+    left: 500px;
+    z-index: 1;
+}
